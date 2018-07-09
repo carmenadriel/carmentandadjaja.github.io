@@ -1,0 +1,50 @@
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.heroimg1 {
+    height: 100vh;
+    width: auto;
+    display: block;
+    background-image: url("Assets/Images/bg1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bg1, .bg2{
+    min-height: 400px;
+}
+
+.bg2{
+    background-color: #f8f8f8;
+}
+
+.heroProfile{
+    display: block;
+    height: 250px;
+    width: 250px;
+    border-radius: 130px;
+    margin: auto;
+    margin-top: 60px;
+    background-image: url("Assets/Images/profile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    background-position: center;
+}
+
+.bio{
+    margin: auto;
+    margin: 100px 30px 60px;
+}
+
+footer{
+    color: white;
+    background-color: #aaaaaa;
+}
