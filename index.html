@@ -4,62 +4,103 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico"/>
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link rel="stylesheet" href="home.css" >
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/scripts/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/scripts/slick-1.8.1/slick/slick-theme.css"/>
 
     <title>Carmen Tandadjaja</title>
   </head>
   <body>
     <div class="heroimg1">
-      <h1 class="text-center">Carmen Tandadjaja</h1>
-      <h2 class="text-center">Web Developer</h2>
+      <h1 class="heroName text-center">Carmen Tandadjaja</h1>
+      <h2 class="heroTitle text-center">Web Developer</h2>
     </div>
     <div class="container-fluid">
-    <div class="row bg1">
-      <div class="col-md-6 text-center">
-        <div class="heroProfile"></div>
+      <div class="row bg1">
+        <div class="col-md-6 text-center">
+          <div class="heroProfile"></div>
+        </div>
+        <div class="col-md-6 text-center">
+          <p class="bio">Carmen Tandadjaja is a Web Developer with emphasis in front-end web development.
+              Graduated with Magna Cum Laude from Pensacola Christian College with a degree in 
+              Computer Information Systems, he is now seeking a full-time position as a Web Developer
+              striving to build simple and usable systems and user interface. Besides coding, he loves
+              to travel and take pictures.
+          </p>
+        </div>
       </div>
-      <div class="col-md-6 text-center">
-        <p class="bio">Carmen Tandadjaja is a Web Developer with emphasis in front-end web development.
-            Graduated with Magna Cum Laude from Pensacola Christian College with a degree in 
-            Computer Information Systems, he is now seeking a full-time position as a Web Developer
-            striving to build simple and usable systems and user interface. Besides coding, he loves
-            to travel and take pictures.
-        </p>
+
+      <div class="row bg2">
+        <div class="container">
+          <h2 class="text-center">Experience</h2>
+          <div class="slick">
+            <div class="slickContent">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="experience1">
+                    <span>Front-End Web Developer, Pensacola Christian College. May 2017-May 2018.</span>
+                    <ul>
+                      <li>Redesign the college website</li>
+                      <li>Work with JavaScript and jQuery</li>
+                      <li>Write Webpages with Bootstrap and C#</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/pcclogo.jpg" class="pcclogo" />
+                </div>
+              </div>
+            </div>
+            <!-- <div class="slickContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse vel elementum nunc. In convallis rhoncus nisl, vel pellentesque velit.
+            </div>
+            <div class="slickContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse vel elementum nunc. In convallis rhoncus nisl, vel pellentesque velit.</div> -->
+          </div>
+        </div>
       </div>
     </div>
     
-    <!-- <div class="row bg2">
+    <!-- <div class="row bg1">
         <div class="col-md-6 text-center">
-          <h2>Click on the image to view his resume</h2>
-        </div>
-        <div class="col-md-6 text-center">
-          <h1>Resume Here</h1>
-        </div>
-    </div>
-
-    <div class="row bg1">
-        <div class="col-md-6 text-center">
-          <h2>Paragraph 1</h2>
+          Test
         </div>
         <div class="col-md-6 text-center">
           <h1>Paragraph 2</h1>
         </div>
     </div> -->
-  </div>
     <footer>
       <div class=text-center>
-          Carmen Tandadjaja<br />
-          <a href="mailto:carmen.tandadjaja@gmail.com">E-mail me!</a>
+          Created by Carmen Tandadjaja<br />
+          <div class="socialLinks">
+            <a href="http://www.instagram.com/carmenadriel" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="http://www.facebook.com/carmen.adriel" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="http://www.linkedin.com/in/carmentandadjaja" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:carmen.tandadjaja@gmail.com"><i class="fas fa-envelope"></i></a>
+
+          </div>
       </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    <!--Slick JS-->
+    <script type="text/javascript" src="assets/scripts/slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('.slick').slick({
+          });
+        });
+    </script>
   </body>
 </html>
