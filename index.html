@@ -1,106 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="Assets/Images/favicon.ico"/>
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-    <link rel="stylesheet" href="home.css" >
-    <!-- Slick CSS -->
-    <link rel="stylesheet" type="text/css" href="Assets/scripts/slick-1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="Assets/scripts/slick-1.8.1/slick/slick-theme.css"/>
 
-    <title>Carmen Tandadjaja</title>
-  </head>
-  <body>
-    <div class="heroimg1">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="Assets/Images/favicon.ico" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="Assets/scripts/slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="Assets/scripts/slick-1.8.1/slick/slick-theme.css" />
+
+  <title>Carmen Tandadjaja</title>
+</head>
+
+<body>
+
+  <div class="heroimg1">
+    <div class="intro">
       <h1 class="heroName text-center">Carmen Tandadjaja</h1>
       <h2 class="heroTitle text-center">Web Developer</h2>
     </div>
-    <div class="container-fluid">
-      <div class="row bg1">
-        <div class="col-md-6 text-center">
-          <div class="heroProfile"></div>
-        </div>
-        <div class="col-md-6 text-center">
-          <p class="bio">Carmen Tandadjaja is a Web Developer with emphasis in front-end web development.
-              Graduated with Magna Cum Laude from Pensacola Christian College with a degree in 
-              Computer Information Systems, he is now seeking a full-time position as a Web Developer
-              striving to build simple and usable systems and user interface. Besides coding, he loves
-              to travel and take pictures.
-          </p>
-        </div>
+    <nav class="text-center">
+      <ul>
+        <a href="#bio" tooltip="test">
+          <li>
+            <a href="#bio">
+              <i class="fas fa-user"></i>
+            </a>
+          </li>
+        </a>
+        <li>
+          <a href="#projects">
+            <i class="fas fa-tasks"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1KQJt3hd3yf7L0ZI4RD0RooyxK_kXU-oh/view?usp=sharing" target=_blank>
+            <i class="fas fa-file-alt"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container-fluid">
+    <!-- Bio -->
+    <div id="bio" class="row bg1">
+      <div class="col-md-6 text-center">
+        <div class="heroProfile"></div>
       </div>
+      <div class="col-md-6 text-center">
+        <p class="bio-text">Carmen Tandadjaja is a Web Developer with emphasis in front-end web development. Graduated with Magna Cum Laude from
+          Pensacola Christian College with a degree in Computer Information Systems, he is now seeking a full-time position
+          as a Web Developer striving to build simple and usable systems and user interface. Besides coding, he loves to
+          travel and take pictures.
+        </p>
+      </div>
+    </div>
+    <!-- Bio -->
 
-      <div class="row bg2">
-        <div class="container">
-          <h2 class="text-center">Experience</h2>
-          <div class="slick">
-            <div class="slickContent">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="experience1">
-                    <span>Front-End Web Developer, Pensacola Christian College. May 2017-May 2018.</span>
-                    <ul>
-                      <li>Redesign the college website</li>
-                      <li>Work with JavaScript and jQuery</li>
-                      <li>Write Webpages with Bootstrap and C#</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="Assets/Images/pcclogo.jpg" class="pcclogo" />
-                </div>
-              </div>
+    <!-- Experience -->
+    <div id="experience" class="row bg2">
+      <div class="container">
+        <h2 class="text-center section-head">Past Experience</h2>
+        <div class="row section-content">
+          <div class="col-md-6">
+            <div class="experience1">
+              <span>Front-End Web Developer, Pensacola Christian College. May 2017-May 2018.</span>
+              <ul>
+                <li>Redesign the college website</li>
+                <li>Assisted graphic designers with JavaScript and jQuery</li>
+                <li>Style Webpages written in C# and ASP.NET with Bootstrap and CSS</li>
+              </ul>
             </div>
-            <!-- <div class="slickContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Suspendisse vel elementum nunc. In convallis rhoncus nisl, vel pellentesque velit.
-            </div>
-            <div class="slickContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Suspendisse vel elementum nunc. In convallis rhoncus nisl, vel pellentesque velit.</div> -->
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="Assets/Images/pcclogo.jpg" class="pcclogo" />
           </div>
         </div>
       </div>
     </div>
-    
-    <!-- <div class="row bg1">
-        <div class="col-md-6 text-center">
-          Test
-        </div>
-        <div class="col-md-6 text-center">
-          <h1>Paragraph 2</h1>
-        </div>
-    </div> -->
-    <footer>
-      <div class=text-center>
-          Created by Carmen Tandadjaja<br />
-          <div class="socialLinks">
-            <a href="http://www.instagram.com/carmenadriel" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="http://www.facebook.com/carmen.adriel" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="http://www.linkedin.com/in/carmentandadjaja" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:carmen.tandadjaja@gmail.com"><i class="fas fa-envelope"></i></a>
+    <!-- Experience -->
 
+    <!-- Project -->
+    <div id="projects" class="row bg1">
+      <div class="container">
+        <h2 class="text-center section-head">Projects</h2>
+        <div class="row section-content">
+          <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+            <div class="card">
+              <img class="card-img-top" src="Assets/Images/ujiTech.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Virtual Exam</h5>
+                <p class="card-text">
+                  This was my senior project in college. We created an automated testing system where teachers can create test and students
+                  can take them and get their grades immediately.
+                </p>
+                <!-- <div class="card-button">
+                  <a href="#" class="btn btn-light btn-sm">
+                    <i class="fas fa-code"></i> Demo</a>
+                  <a href="#" class="btn btn-dark btn-sm">
+                    <i class="fab fa-github"></i> GitHub Repo</a>
+                </div> -->
+              </div>
+            </div>
           </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+            <div class="card">
+              <img class="card-img-top" src="https://picsum.photos/200/?random" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Motivational Quote Generator</h5>
+                <p class="card-text">Get up. Get out. Get it.</p>
+                <div class="card-button">
+                  <a href="randomQuotes/index.html" class="btn btn-light btn-sm">
+                    <i class="fas fa-code"></i> Demo</a>
+                  <!-- <a href="#" class="btn btn-dark btn-sm">
+                    <i class="fab fa-github"></i> GitHub Repo</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+            <div class="card">
+              <img class="card-img-top" src="https://picsum.photos/200/?random" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Check back soon</h5>
+                <p class="card-text">In progress. . .</p>
+                <!-- <div class="card-button">
+                  <a href="#" class="btn btn-light btn-sm">
+                    <i class="fas fa-code"></i> Demo</a>
+                  <a href="#" class="btn btn-dark btn-sm">
+                    <i class="fab fa-github"></i> GitHub Repo</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+    </div>
+  </div>
+  <!-- Project -->
+  </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
-    <!--Slick JS-->
-    <script type="text/javascript" src="Assets/scripts/slick-1.8.1/slick/slick.min.js"></script>
-    <script>
-        $(document).ready(function(){
-          $('.slick').slick({
-          });
-        });
-    </script>
-  </body>
+  <footer>
+    <div class="footer-block text-center">
+      <p style="font-size: 12pt">Let's get connected!</p>
+      <div class="socialLinks">
+        <a href="http://www.instagram.com/carmenadriel" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="http://www.facebook.com/carmen.adriel" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="http://www.linkedin.com/in/carmentandadjaja" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="http://www.github.com/carmentandadjaja" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:carmen.tandadjaja@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!--Slick JS-->
+  <script type="text/javascript" src="Assets/scripts/slick-1.8.1/slick/slick.min.js"></script>
+  <!-- <script>
+    $(document).ready(function () {
+      $('.slick').slick({
+      });
+    });
+  </script> -->
+</body>
+
 </html>

@@ -54,9 +54,46 @@ a:hover{
     background-position: center;
 }
 
-.bio{
+nav{
+    position: relative;
+    top: 30px;
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li, nav ul li i{
+    display: inline-block;
+    font-size: 14pt;
+    font-family: 'Slabo 27px', serif;
+    padding: 15px;
+    color: black;
+}
+
+nav ul li i:hover{
+    color: white;
+}
+
+#bio{
+    scroll-behavior: smooth;
+}
+
+.bio-text{
     margin: auto;
     margin: 100px 30px 60px;
+}
+
+.section-head {
+    padding: 20px;
+}
+
+.section-content{
+    margin: 20px auto;
+    background: white;
+    border-radius: 15px;
+    width: auto;
 }
 
 .slick{
@@ -82,14 +119,50 @@ a:hover{
     border-radius: 30px;
 }
 
+.card{
+    margin: 10px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.card .card-body{
+    top: 300px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    transition: 0.5s ease all;
+    overflow: auto;
+}
+
+.card:hover .card-body{
+    top: 0px;
+    transition: 0.5s ease all;
+}
+
+.card-button{
+    position: relative;
+    top: 5%;
+}
+
+.card-button .btn{
+    margin: 3px;
+}
+
 footer{
     color: white;
     background-color: #aaaaaa;
 }
 
+.footer-block {
+    height: 85px;
+    margin-top: 30px;
+}
+
 .socialLinks a {
     padding: 5px;
-    font-size: 16pt;
+    font-size: 20pt;
 }
 
 .socialLinks a:first-of-type:hover{
