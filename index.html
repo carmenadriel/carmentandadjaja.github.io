@@ -21,7 +21,6 @@
 </head>
 
 <body>
-
   <div class="heroimg1">
     <div class="intro">
       <h1 class="heroName text-center">Carmen Tandadjaja</h1>
@@ -29,22 +28,23 @@
     </div>
     <nav class="text-center">
       <ul>
-        <a href="#bio" tooltip="test">
-          <li>
-            <a href="#bio">
-              <i class="fas fa-user"></i>
-            </a>
-          </li>
-        </a>
         <li>
-          <a href="#projects">
-            <i class="fas fa-tasks"></i>
+          <a href="#bio" class="header-icon">
+            <i class="fas fa-user"></i>
           </a>
+          <div class="my-tooltip">About Me!</div>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1KQJt3hd3yf7L0ZI4RD0RooyxK_kXU-oh/view?usp=sharing" target=_blank>
+          <a href="#projects" class="header-icon">
+            <i class="fas fa-tasks"></i>
+          </a>
+          <div class="my-tooltip">Projects</div>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1KQJt3hd3yf7L0ZI4RD0RooyxK_kXU-oh/view?usp=sharing" target=_blank class="header-icon">
             <i class="fas fa-file-alt"></i>
           </a>
+          <div class="my-tooltip">Resume</div>
         </li>
       </ul>
     </nav>
@@ -81,42 +81,56 @@
             </div>
           </div>
           <div class="col-md-6 text-center">
-            <img src="Assets/Images/pcclogo.jpg" class="pcclogo" />
+            <a href="https://www.pcci.edu">
+              <img src="Assets/Images/pcclogo.jpg" class="pcclogo" />
+            </a>
           </div>
         </div>
       </div>
     </div>
     <!-- Experience -->
 
-    <!-- Project -->
+    <!-- Projects -->
     <div id="projects" class="row bg1">
       <div class="container">
         <h2 class="text-center section-head">Projects</h2>
         <div class="row section-content">
           <div class="col-md-4 col-sm-6 col-xs-12 text-center">
             <div class="card">
-              <img class="card-img-top" src="Assets/Images/ujiTech.png" alt="Card image cap">
+              <img class="card-img-top" src="Assets/Images/Projects/NumberGuessingIcon.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Virtual Exam</h5>
+                <h5 class="card-title">Number Guessing</h5>
                 <p class="card-text">
-                  This was my senior project in college. We created an automated testing system where teachers can create test and students
-                  can take them and get their grades immediately.
+                  Another simple app I create in ReactJS. Originally a class project. I decided to re-create it here. Guess the random number!
                 </p>
-                <!-- <div class="card-button">
-                  <a href="#" class="btn btn-light btn-sm">
+                <p>Created using
+                  <i class="fab fa-js-square"></i>,
+                  <i class="fab fa-react"></i>,
+                  <i class="fab fa-html5"></i>,
+                  <i class="fab fa-css3-alt"></i>
+                </p>
+                <div class="card-button">
+                  <a href="numberGuessing/index.html" class="btn btn-light btn-sm">
                     <i class="fas fa-code"></i> Demo</a>
-                  <a href="#" class="btn btn-dark btn-sm">
-                    <i class="fab fa-github"></i> GitHub Repo</a>
-                </div> -->
+                  <!--<a href="#" class="btn btn-dark btn-sm">
+                    <i class="fab fa-github"></i> GitHub Repo</a> -->
+                </div>
               </div>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 text-center">
             <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/200/?random" alt="Card image cap">
+              <img class="card-img-top" src="Assets/Images/Projects/RandomQuotesIcon.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Motivational Quote Generator</h5>
-                <p class="card-text">Get up. Get out. Get it.</p>
+                <p class="card-text">
+                  Feeling motivated lately. You can too. Get up. Get out. Get it.
+                </p>
+                <p>Created using
+                  <i class="fab fa-html5"></i>,
+                  <i class="fab fa-css3-alt"></i>,
+                  <i class="fab fa-react"></i>
+                </p>
                 <div class="card-button">
                   <a href="randomQuotes/index.html" class="btn btn-light btn-sm">
                     <i class="fas fa-code"></i> Demo</a>
@@ -130,10 +144,10 @@
             <div class="card">
               <img class="card-img-top" src="https://picsum.photos/200/?random" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Check back soon</h5>
+                <h5 class="card-title">Check back soon!</h5>
                 <p class="card-text">In progress. . .</p>
                 <!-- <div class="card-button">
-                  <a href="#" class="btn btn-light btn-sm">
+                  <a href="numberGuessing/index.html" class="btn btn-light btn-sm">
                     <i class="fas fa-code"></i> Demo</a>
                   <a href="#" class="btn btn-dark btn-sm">
                     <i class="fab fa-github"></i> GitHub Repo</a>

@@ -76,8 +76,32 @@ nav ul li i:hover{
     color: white;
 }
 
-#bio{
-    scroll-behavior: smooth;
+.header-icon + .my-tooltip{
+    visibility: hidden;
+    position: relative;
+    top: 5px;
+    right: 0px;
+    background: black;
+    color: white;
+    padding: 5px;
+    font-size: 10pt;
+    border-radius: 5px;
+    font-family: 'Slabo 27px', serif;
+}
+
+.header-icon:hover + .my-tooltip{
+    visibility: visible;
+    
+}
+
+.my-tooltip:after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 42%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
 }
 
 .bio-text{
